@@ -12,9 +12,7 @@ export default async function UsersLayout({
     
     console.log("conersacion layout");
     return ( 
-        <div>
-            {/* @ts-expect-error*/}
-            <Sidebar>
+        <Sidebar>
             <div className="h-full">
                 <ConversationList
                 users={users}
@@ -23,7 +21,6 @@ export default async function UsersLayout({
                 {children}
             </div>
         </Sidebar>
-        </div>
         
     )
 }
