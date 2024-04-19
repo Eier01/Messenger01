@@ -12,7 +12,7 @@ export default async function UsersLayout({
     
     console.log("conersacion layout");
     return ( 
-        // @ts-expect-error server Component       
+        // @ts-expect-error     
         <Sidebar>
             <div className="h-full">
                 <ConversationList
