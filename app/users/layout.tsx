@@ -10,7 +10,7 @@ export default async function UsersLayout({
     const users = await getUsers()
     console.log("users layot")
     return (        
-        // @ts-expect-error server Component
+        
         <Sidebar>
             <div className='h-full'>
                 <UserList items={users}/>
